@@ -1,0 +1,135 @@
+* {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NAV Y ENCABEZADO*/
+header {
+   background-color: #24282b;
+   height: 90px;
+   color: white;
+}
+
+
+header h1 {
+   padding-left: 70px;
+   float: left;
+}
+
+header ul {
+   padding-right: 90px;
+}
+
+header li {
+   float: right;
+   text-align: center;
+   list-style: none;
+   margin-left: 3%;
+   font-weight: 600;
+}
+
+header li :hover {
+   color: #1293d4;
+}
+
+header a {
+   text-decoration: none;
+   font-size: 15px;
+   color: white;
+}
+
+span {
+   color: #1293d4;
+}
+
+.NAV-CONTENEDOR {
+   padding-top: 35px;
+}
+
+hr {
+   background-color: #1293d4;
+   height: 5px;
+   border: none;
+}
+
+/*FORMULARIO*/
+
+#segundaSeccion {
+   height: 90px;
+   text-align: center;
+   background-color: #24282b;
+}
+
+#segundaSeccion h1 {
+   float: left;
+   color: white;
+   padding-left: 150px;
+   font-size: larger;
+
+}
+
+#segundaSeccion form {
+   float: right;
+   padding-right: 90px;
+}
+
+input {
+   height: 30px;
+   width: 350px;
+}
+
+button {
+   background-color: #e8491d;
+   border: none;
+   height: 36px;
+   width: 100px;
+   color: white;
+}
+
+body {
+
+   background-color: #f4f4f4;
+}
+
+aside {
+   color: white;
+   background-color: #35424a;
+   margin: 20px 86px 0px 15px;
+   height: 150px;
+   width: 30%;
+   padding: 15px;
+   float: right;
+}
+
+#secciones1 {
+   margin: 10px 0px 0px 86px;
+   padding: 15px;
+   width: 64%;
+}
+
+img {
+   margin: 10px 0px 5px 86px;
+   width: 54%;
+}
+
+#secciones2 {
+   background-color: #35424a;
+   color: white;
+   margin: 5px 0px 0px 86px;
+   padding: 15px;
+   width: 52%;
+}
+
+/*FOOTER*/
+
+footer {
+   margin-top: 93px;
+   height: 60px;
+   background-color: #1293d4;
+   text-align: center;
+   color: white;
+}
+
+footer p {
+   padding-top: 20px;
+}

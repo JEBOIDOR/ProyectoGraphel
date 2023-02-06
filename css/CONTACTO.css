@@ -1,0 +1,142 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/*NAV Y ENCABEZADO*/
+
+header {
+    background-color: #24282b;
+    height: 90px;
+    color: white;
+}
+
+
+header h1 {
+    padding-left: 70px;
+    float: left;
+}
+
+header ul {
+    padding-right: 90px;
+}
+
+header li {
+    float: right;
+    text-align: center;
+    list-style: none;
+    margin-left: 3%;
+    font-weight: 600;
+}
+
+header li :hover {
+    color: #1293d4;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+span {
+    color: #1293d4;
+}
+
+.NAV-CONTENEDOR {
+    padding-top: 35px;
+}
+
+hr {
+    background-color: #1293d4;
+    height: 5px;
+    border: none;
+}
+
+/*FORMULARIO*/
+#segundaSeccion {
+    height: 90px;
+    text-align: center;
+    background-color: #24282b;
+}
+
+#segundaSeccion h1 {
+    float: left;
+    color: white;
+    padding-left: 150px;
+    font-size: larger;
+
+}
+
+#segundaSeccion form {
+    float: right;
+    padding-right: 90px;
+}
+
+input {
+    height: 30px;
+    width: 350px;
+}
+
+button {
+    background-color: #e8491d;
+    border: none;
+    height: 36px;
+    width: 100px;
+    color: white;
+}
+
+aside {
+    color: white;
+    background-color: #35424a;
+    margin: 20px 86px 0px 15px;
+    height: 150px;
+    width: 30%;
+    padding: 15px;
+    float: right;
+}
+
+img {
+    margin: 40px -15px;
+    height: 344px;
+    width: 550px;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/*CONTACTO*/
+.contacto {
+    margin: 15px 30px 30px 86px;
+}
+
+.contacto input {
+    margin-bottom: 8px;
+    width: 700px;
+    color: #505050;
+}
+
+.contacto textarea {
+    height: 200px;
+    width: 700px;
+    margin-bottom: 3px;
+}
+
+#boton {
+    background-color: #e8491d;
+    border-style: none;
+    color: white;
+}
+
+footer {
+    height: 60px;
+    background-color: #1293d4;
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+}
+
+footer p {
+    padding-top: 20px;
+}
